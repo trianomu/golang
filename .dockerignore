@@ -1,0 +1,5 @@
+.git
+*.md
+*.zip
+*.DS_Store
+vendor/

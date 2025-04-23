@@ -1,0 +1,4 @@
+echo bin/ > .gitignore
+echo *.exe >> .gitignore
+echo vendor/ >> .gitignore
+echo .env >> .gitignore
