@@ -8,9 +8,8 @@ import (
 )
 
 func main() {
-    configs.ConnectDB() // ✅ just call it
+    configs.ConnectDB() 
 
-    // ✅ Auto-migrate the schema
     err := configs.DB.AutoMigrate(
         &domain.Customer{},
         &domain.Transaction{},
@@ -21,6 +20,6 @@ func main() {
     }
 
     r := gin.Default()
-    handler.SetupRoutes(r, configs.DB) // ✅ use the global DB
+    handler.SetupRoutes(r, configs.DB)
     r.Run(":8080")
 }

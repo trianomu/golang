@@ -1,4 +1,3 @@
-// Placeholder for customer_usecase.go
 package usecase
 
 import (

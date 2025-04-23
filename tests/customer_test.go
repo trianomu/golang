@@ -1,4 +1,3 @@
-// Placeholder for customer_test.gopackage handler
 import (
     "net/http"
     "net/http/httptest"

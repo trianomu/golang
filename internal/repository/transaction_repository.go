@@ -1,4 +1,3 @@
-// Placeholder for transaction_repository.go
 package repository
 
 import (

@@ -1,4 +1,3 @@
-// Placeholder for transaction_usecase.go
 package usecase
 
 import (

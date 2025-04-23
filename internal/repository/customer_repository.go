@@ -1,5 +1,3 @@
-// Placeholder for customer_repository.go
-
 package repository
 
 import (

@@ -1,4 +1,3 @@
-// Placeholder for transaction.go
 package handler
 
 import (

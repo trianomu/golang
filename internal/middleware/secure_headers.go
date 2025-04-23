@@ -1,4 +1,3 @@
-// Placeholder for secure_headers.go
 package middleware
 
 import "github.com/gin-gonic/gin"
